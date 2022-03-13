@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+// spaces
+$grid-gap: 18px;
+
+// colors
+$primary: hsl(246, 80%, 60%);
+$theme-darkest-color: hsl(226, 43%, 10%);
+$theme-dark-color: hsl(235, 46%, 20%);
+$theme-light-color: hsl(235, 45%, 61%);
+$theme-lightest-color: hsl(236, 100%, 87%);
+
+$work-color: hsl(15, 100%, 70%);
+$play-color: hsl(195, 74%, 62%);
+$study-color: hsl(348, 100%, 68%);
+$exercise-color: hsl(145, 58%, 55%);
+$social-color: hsl(264, 64%, 52%);
+$self-care-color: hsl(43, 84%, 65%);
+
+// font
+$font-family: 'Rubik', sans-serif;
+$card-title-font-size: 18px;
