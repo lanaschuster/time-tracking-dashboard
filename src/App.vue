@@ -3,9 +3,7 @@
   <main>
     <TimeDashboardLayout>
       <template #side-column>
-        <div>
-          side column
-        </div>
+        <ReportPresentationCard />
       </template>
       <template #main-grid>
         <div>
@@ -18,9 +16,12 @@
 
 <script>
 import TimeDashboardLayout from '@/layouts/time-dashboard-layout/time-dashboard-layout.vue'
+import ReportPresentationCard from '@/components/report-presentation-card/report-presentation-card.vue'
+
 export default {
   components: {
-    TimeDashboardLayout
+    TimeDashboardLayout,
+    ReportPresentationCard
   }
 }
 </script>
