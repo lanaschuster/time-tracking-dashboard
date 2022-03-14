@@ -15,5 +15,17 @@ section {
   justify-content: center;
   align-items: center;
   column-gap: $grid-gap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    row-gap: $grid-gap;
+    overflow-y: scroll;
+  }
+  .side-column, .main-grid {
+    padding: 0 16px;
+  }
 }
 </style>

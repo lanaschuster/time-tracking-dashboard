@@ -3,7 +3,7 @@
     <div class="presentation">
       <img src="/images/image-jeremy.png" alt="Avatar">
       <div>
-        Report for
+        Report for<br/>
         <span>Jeremy Robson</span>
       </div>
     </div>
@@ -73,6 +73,29 @@
   }
 }
 @media screen and (max-width: 768px) {
-  // TODO
+  .report-presentation-card {
+    position: relative;
+    width: 100%;
+
+    .filters {
+      width: calc(100% - 48px);
+      display: flex;
+      flex-direction: row;
+      column-gap: $grid-gap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .report-presentation-card .presentation {
+    width: calc(100% - 48px);
+    align-items: center;
+    flex-direction: row;
+    column-gap: 16px;
+    padding: 24px;
+
+    div span {
+      font-size: 24px;
+    }
+  }
 }
 </style>
