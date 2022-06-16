@@ -15,7 +15,6 @@ section {
   justify-content: center;
   align-items: center;
   column-gap: $grid-gap;
-  flex-wrap: wrap;
   width: 100%;
   height: $main-section-height;
 
@@ -33,19 +32,24 @@ section {
 
 @media screen and (max-width: 921px) {
   section {
+    height: 100%;
     row-gap: $grid-gap;
-    overflow-y: scroll;
     flex-direction: column;
+    width: fit-content;
+    justify-content: flex-start;
+    align-items: center;
     
     .main-grid {
       display: grid;
       grid-template-columns: 1fr;
       row-gap: 4px;
       height: 100%;
+      width: 100%;
     }
 
     .side-column, .main-grid {
       padding: 0 16px;
+      width: 100%;
     }
   }
 }

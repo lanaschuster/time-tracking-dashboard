@@ -78,7 +78,6 @@ export default {
 
   .body {
     background: $theme-dark-color;
-    // height: $dashboard-item-card-width;
     width: calc(100% - 64px);
     border-radius: $border-radius;
     transform: translateY(-20px);
@@ -98,7 +97,6 @@ export default {
       align-items: center;
       color: white;
       font-weight: 500;
-      // padding: 32px 0 16px 0;
 
       img {
         cursor: pointer;
@@ -108,7 +106,6 @@ export default {
     .main-text {
       color: white;
       font-size: 52px;
-      // line-height: 140%;
       font-weight: 100;
     }
 
@@ -117,6 +114,11 @@ export default {
       font-size: 14px;
 
     }
+  }
+}
+@media screen and (max-width: 921px) {
+  .dashboard-item-card {
+    width: 100%;
   }
 }
 .work-card {

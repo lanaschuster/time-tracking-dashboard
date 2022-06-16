@@ -74,7 +74,6 @@ main {
 @media screen and (max-width: 921px) {
   main {
     height: 100%;
-    display: block;
     padding: 32px 0;
   }
 }
