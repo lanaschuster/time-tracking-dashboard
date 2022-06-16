@@ -38,7 +38,7 @@ export default {
     let classes = ref(`${variant}-card`)
 
     const image = computed(() => {
-      return `/images/icon-${variant}.svg`
+      return `${import.meta.env.VITE_BASE}images/icon-${variant}.svg`
     })
 
     const title = computed(() => {
