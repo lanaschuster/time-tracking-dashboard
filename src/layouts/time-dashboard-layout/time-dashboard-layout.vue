@@ -17,15 +17,32 @@ section {
   column-gap: $grid-gap;
   flex-wrap: wrap;
   width: 100%;
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    height: 100%;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 921px) {
   section {
     row-gap: $grid-gap;
     overflow-y: scroll;
-  }
-  .side-column, .main-grid {
-    padding: 0 16px;
+    flex-direction: column;
+    
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 4px;
+      height: 100%;
+    }
+
+    .side-column, .main-grid {
+      padding: 0 16px;
+    }
   }
 }
 </style>

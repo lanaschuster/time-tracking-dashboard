@@ -4,12 +4,14 @@
 $grid-gap: 18px;
 $border-radius: 16px;
 
-$report-presentation-card-width: 228px;
+$report-presentation-card-width: 242px;
+$dashboard-item-card-width: calc(242px - 64px);
 
 // colors
 $primary: hsl(246, 80%, 60%);
 $theme-darkest-color: hsl(226, 43%, 10%);
 $theme-dark-color: hsl(235, 46%, 20%);
+$theme-dark-color-hover: hsl(235, 36%, 31%);
 $theme-light-color: hsl(235, 45%, 61%);
 $theme-lightest-color: hsl(236, 100%, 87%);
 
