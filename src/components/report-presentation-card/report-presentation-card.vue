@@ -28,10 +28,11 @@
   
 
   .filters {
-    padding: 24px;
+    padding: 32px 24px;
     display: flex;
     flex-direction: column;
     row-gap: $grid-gap;
+    font-size: 18px;
     
     a {
       text-decoration: none;

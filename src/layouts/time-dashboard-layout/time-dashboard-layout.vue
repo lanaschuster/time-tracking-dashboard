@@ -26,7 +26,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
-    row-gap: 16px;
+    row-gap: 8px;
     height: 100%;
   }
 }
