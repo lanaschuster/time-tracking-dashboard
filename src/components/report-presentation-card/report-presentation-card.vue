@@ -24,6 +24,7 @@
   height: fit-content;
   background: $theme-dark-color;
   border-radius: $border-radius;
+  height: 100%;
   
 
   .filters {
@@ -47,14 +48,14 @@
 .report-presentation-card .presentation {
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  row-gap: 2rem;
   width: calc($report-presentation-card-width - 48px);
   background: $primary;
   border-radius: $border-radius;
-  padding: 24px 24px 64px 24px;
+  padding: 2rem 24px 82px 24px;
 
   img {
-    width: 64px;
+    width: 5rem;
     border-radius: 500px;
     border: solid white 2px;
   }
@@ -76,6 +77,7 @@
   .report-presentation-card {
     position: relative;
     width: 100%;
+    height: fit-content;
 
     .filters {
       width: calc(100% - 48px);

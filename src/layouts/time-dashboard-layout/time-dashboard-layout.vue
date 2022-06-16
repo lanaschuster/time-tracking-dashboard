@@ -17,7 +17,11 @@ section {
   column-gap: $grid-gap;
   flex-wrap: wrap;
   width: 100%;
+  height: $main-section-height;
 
+  .side-column {
+    height: 100%;
+  }
   .main-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
